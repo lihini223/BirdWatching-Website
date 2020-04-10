@@ -16,6 +16,7 @@ h1{
     font-size: 4rem;
     text-align: center;
     text-shadow: 2px 2px 10px black;
+    margin-top: 5%;
 }
 
 h2{
@@ -34,17 +35,39 @@ img{
     width: 100px;
     margin-right: 10%;
     margin-left: 90%;
-    margin-top: -12%;
+    margin-top: -13%;
 }
 
+.photos{
+    height: 50;
+    width: 50;
+}
+
+/* define the main navigation block */
 .topnav{
-
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #333333;
 }
 
-.welcome{
-
+/* remove bullets, margin and padding */
+.topnav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.topnav li {
+    float: left;
 }
 
-.footer{
-    
+/* define the block styling for the links */
+.topnav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
 }
+ /* display the active link */
+ .topnav li a.active {
+     background-color: aquamarine;
+ }

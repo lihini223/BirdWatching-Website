@@ -68,3 +68,16 @@ li.active{
     background-color: #ffa64d;
 }
 
+div.gallery{
+    margin: 5px;
+   
+    float: left;
+  /*  width: 360px;*/
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+}
+

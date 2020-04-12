@@ -6,7 +6,7 @@ body {
     background-color: #ffa64d;   
   }
   
-h1, h2{
+h1, h2,h3{
     font-family: 'Cinzel Decorative', cursive;
     color: #2a2a2a;
     text-shadow: 2px 2px 10px black;
@@ -21,53 +21,50 @@ h1{
 
 h2{
     font-size: 3rem;
-    text-align: center;
+    text-align: left;
+}
+
+h3{
+    font-size: 2rem;
+    text-align: left;
+}
+
+img{
+    margin-left: 34%;
 }
 
 p{
     font-family: 'Roboto Condensed', sans-serif;
     color: #2a2a2a;
     font-size: 1.6rem;
-}
+} 
 
-img{
-    height: 100px;
-    width: 100px;
-    margin-right: 10%;
-    margin-left: 90%;
-    margin-top: -13%;
-}
-
-.photos{
-    height: 50;
-    width: 50;
-}
-
-/* define the main navigation block */
-.topnav{
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    background-color: #333333;
-}
-
-/* remove bullets, margin and padding */
-.topnav ul {
-    list-style: none;
-    padding: 0;
+ul{
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
 }
-.topnav li {
+
+li{
+    display: inline;
     float: left;
 }
 
-/* define the block styling for the links */
-.topnav li a {
-    display: inline-block;
+li a{
+    display: block;
+    color: white;
     text-align: center;
     padding: 14px 16px;
+    text-decoration: none;
 }
- /* display the active link */
- .topnav li a.active {
-     background-color: aquamarine;
- }
+
+li a:hover{ 
+    background-color: #111; /*change the link color:hover*/
+}
+li.active{
+    background-color: #ffa64d;
+}
+
